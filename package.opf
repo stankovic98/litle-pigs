@@ -1,0 +1,29 @@
+<package unique-identifier="pub-id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="pub-id">urn:uuid:ffd76e40-ed38-433e-8743-bc03072fea79</dc:identifier>
+        <dc:identifier id="online-id">https://www.gutenberg.org/files/18155/18155-h/18155-h.htm</dc:identifier>
+  
+        <dc:title id="main">The Story of the Three Little Pigs</dc:title>
+        <meta refines="#main" property="title-type">main</meta>
+        <meta refines="#main" property="display-seq">1</meta>
+
+        <dc:title id="subtitle">With drawings by L. Leslie Brooke</dc:title>
+        <meta refines="#subtitle" property="title-type">main</meta>
+        <meta refines="#subtitle" property="display-seq">2</meta>
+
+        <dc:language>en</dc:language>
+
+        <meta property="dcterms:modified">2020-04-03T12:00:00Z</meta>
+        
+        <dc:creator id="creator">Unknown</dc:creator>
+        <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
+        
+        <dc:creator id="ilustrator">L. Leslie Brooke</dc:creator>
+        <meta refines="#ilustrator" property="role" scheme="marc:relators" id="role">ill</meta>
+        
+        <dc:date id="publish-date">1904</dc:date>
+
+        <dc:rights id="rights">Public domain</dc:rights>
+
+    </metadata>
+</package>
