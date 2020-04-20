@@ -26,4 +26,11 @@
         <dc:rights id="rights">Public domain</dc:rights>
 
     </metadata>
+    <mainfest>
+        <item href="./content.html" id="main-content" media-type="application/html"/>
+    </manifest>
+
+    <spine toc="ncx">
+        <itemref idref="main-content"/>
+    </spine>
 </package>
