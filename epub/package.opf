@@ -18,10 +18,10 @@
         <meta property="dcterms:modified">2020-04-03T12:00:00Z</meta>
         
         <dc:creator id="creator">Unknown</dc:creator>
-        <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
+        <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
         
         <dc:creator id="ilustrator">L. Leslie Brooke</dc:creator>
-        <meta refines="#ilustrator" property="role" scheme="marc:relators" id="role">ill</meta>
+        <meta refines="#ilustrator" property="role" scheme="marc:relators">ill</meta>
         
         <dc:date id="publish-date">1904</dc:date>
 
@@ -29,10 +29,39 @@
 
     </metadata>
     <manifest>
-        <item href="content.html" id="main-content" media-type="application/xhtml+xml" />
+        <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+        <item href="content.xhtml" id="content" media-type="application/xhtml+xml" />
+        <item href="images/img001.jpg" id="img001" media-type="image/jpeg" />
+        <item href="images/img002.jpg" id="img002" media-type="image/jpeg" />
+        <item href="images/img003.jpg" id="img003" media-type="image/jpeg" />
+        <item href="images/img004.jpg" id="img004" media-type="image/jpeg" />
+        <item href="images/img005.jpg" id="img005" media-type="image/jpeg" />
+        <item href="images/img006.jpg" id="img006" media-type="image/jpeg" />
+        <item href="images/img007.jpg" id="img007" media-type="image/jpeg" />
+        <item href="images/img008.jpg" id="img008" media-type="image/jpeg" />
+        <item href="images/img009.jpg" id="img009" media-type="image/jpeg" />
+        <item href="images/img010.jpg" id="img010" media-type="image/jpeg" />
+        <item href="images/img011.jpg" id="img011" media-type="image/jpeg" />
+        <item href="images/img012.jpg" id="img012" media-type="image/jpeg" />
+        <item href="images/img013.jpg" id="img013" media-type="image/jpeg" />
+        <item href="images/img014.jpg" id="img014" media-type="image/jpeg" />
+        <item href="images/img015.jpg" id="img015" media-type="image/jpeg" />
+        <item href="images/imgplate-1.jpg" id="imgplate-1" media-type="image/jpeg" />
+        <item href="images/imgplate-2.jpg" id="imgplate-2" media-type="image/jpeg" />
+        <item href="images/imgplate-3.jpg" id="imgplate-3" media-type="image/jpeg" />
+        <item href="images/imgplate-4.jpg" id="imgplate-4" media-type="image/jpeg" />
+        <item href="images/imgplate-5.jpg" id="imgplate-5" media-type="image/jpeg" />
+        <item href="images/imgplate-6.jpg" id="imgplate-6" media-type="image/jpeg" />
+        <item href="images/imgplate-7.jpg" id="imgplate-7" media-type="image/jpeg" />
+        <item href="images/imgplate-8.jpg" id="imgplate-8" media-type="image/jpeg" />
+        <item href="images/imginside-back.jpg" id="imginside-back" media-type="image/jpeg" />
+        <item href="images/imginsidefront.jpg" id="imginside-front" media-type="image/jpeg" />
+        <item href="images/imgtitle.jpg" id="imgtitle" media-type="image/jpeg" />
+  
     </manifest>
 
     <spine>
-        <itemref idref="main-content"/>
+        <itemref idref="nav" />
+        <itemref idref="content"/>
     </spine>
 </package>
