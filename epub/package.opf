@@ -1,4 +1,6 @@
-<package unique-identifier="pub-id">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
         <dc:identifier id="pub-id">urn:uuid:ffd76e40-ed38-433e-8743-bc03072fea79</dc:identifier>
         <dc:identifier id="online-id">https://www.gutenberg.org/files/18155/18155-h/18155-h.htm</dc:identifier>
@@ -26,11 +28,11 @@
         <dc:rights id="rights">Public domain</dc:rights>
 
     </metadata>
-    <mainfest>
-        <item href="./content.html" id="main-content" media-type="application/html"/>
+    <manifest>
+        <item href="content.html" id="main-content" media-type="application/xhtml+xml" />
     </manifest>
 
-    <spine toc="ncx">
+    <spine>
         <itemref idref="main-content"/>
     </spine>
 </package>
