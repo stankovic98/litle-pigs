@@ -1,0 +1,38 @@
+body {
+    line-height: 1.5;
+}
+body * {
+    line-height: inherit;
+}
+
+.first-word {
+    font-variant: small-caps;
+}
+
+.first-word::first-letter {
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+p::first-line {
+    text-indent: 50px;
+}
+
+img {
+    text-align: center;
+}
+
+[epub|type~="title"] {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.color-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    page-break-after: always;
+}

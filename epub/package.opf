@@ -29,8 +29,10 @@
 
     </metadata>
     <manifest>
+        <item id="default-style" href="css/default.css" media-type="text/css"/>
         <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
         <item href="content.xhtml" id="content" media-type="application/xhtml+xml" />
+        
         <item href="images/img001.jpg" id="img001" media-type="image/jpeg" />
         <item href="images/img002.jpg" id="img002" media-type="image/jpeg" />
         <item href="images/img003.jpg" id="img003" media-type="image/jpeg" />
