@@ -31,7 +31,16 @@
     <manifest>
         <item id="default-style" href="css/default.css" media-type="text/css"/>
         <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
-        <item href="content.xhtml" id="content" media-type="application/xhtml+xml" />
+        <item href="content01.xhtml" id="content01" media-type="application/xhtml+xml" />
+        <item href="content02.xhtml" id="content02" media-type="application/xhtml+xml" />
+        <item href="content03.xhtml" id="content03" media-type="application/xhtml+xml" />
+        <item href="content04.xhtml" id="content04" media-type="application/xhtml+xml" />
+        <item href="content05.xhtml" id="content05" media-type="application/xhtml+xml" />
+        <item href="content06.xhtml" id="content06" media-type="application/xhtml+xml" />
+        <item href="content07.xhtml" id="content07" media-type="application/xhtml+xml" />
+        <item href="content08.xhtml" id="content08" media-type="application/xhtml+xml" />
+        <item href="content09.xhtml" id="content09" media-type="application/xhtml+xml" />
+        <item href="content10.xhtml" id="content10" media-type="application/xhtml+xml" />
         
         <item href="images/img001.jpg" id="img001" media-type="image/jpeg" />
         <item href="images/img002.jpg" id="img002" media-type="image/jpeg" />
@@ -64,6 +73,6 @@
 
     <spine>
         <itemref idref="nav" />
-        <itemref idref="content"/>
+        <itemref idref="content01"/>
     </spine>
 </package>
