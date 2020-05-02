@@ -3,8 +3,15 @@ body {
 }
 body * {
     line-height: inherit;
+    font-family: Understock;
 }
-
+h1 {
+    font-family: TheCircous;
+    font-size: 1.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+}
 .first-word {
     font-variant: small-caps;
 }
@@ -17,7 +24,6 @@ p:first-of-type:first-line {
 }
 
 p {
-    text-align: left;
     margin: 10px;
     padding: 10px;
 }
@@ -40,4 +46,18 @@ img {
     height: 100vh;
     object-fit: contain;
     page-break-after: always;
+}
+
+@font-face {
+    font-family: 'TheCircous';
+    font-weight: normal;
+    font-style: normal;
+    src:url('fonts/TheCircous.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Understock';
+    font-weight: normal;
+    font-style: normal;
+    src:url('fonts/UnderstockRegular.otf') format('otf');
 }
