@@ -52,12 +52,12 @@ img {
     font-family: 'TheCircous';
     font-weight: normal;
     font-style: normal;
-    src:url('fonts/TheCircous.ttf') format('ttf');
+    src:url('../fonts/TheCircous.ttf') format('ttf');
 }
 
 @font-face {
     font-family: 'Understock';
     font-weight: normal;
     font-style: normal;
-    src:url('fonts/UnderstockRegular.otf') format('otf');
+    src:url('../fonts/UnderstockRegular.otf') format('otf');
 }
