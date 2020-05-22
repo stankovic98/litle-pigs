@@ -61,3 +61,21 @@ img {
     font-style: normal;
     src:url('../fonts/UnderstockRegular.otf') format('otf');
 }
+
+@namespace math "http://www.w3.org/1998/Math/MathML";
+math {
+    color: green;
+    font-size: 2em;
+}
+munderover {
+    color: black
+}
+
+munderover:first-child {
+    font-size: 1em;
+    color: red;
+}
+
+mfrac {
+    opacity: 0.8;
+}
