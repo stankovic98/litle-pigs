@@ -1,0 +1,81 @@
+body {
+    line-height: 1.5;
+}
+body * {
+    line-height: inherit;
+    font-family: Understock;
+}
+h1 {
+    font-family: TheCircous;
+    font-size: 1.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+}
+.first-word {
+    font-variant: small-caps;
+}
+
+.first-word:first-letter {
+    font-size: 20px;
+}
+p:first-of-type:first-line {
+    text-indent: 0;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+p:first-line {
+    text-indent: 50px;
+}
+
+img {
+    text-align: center;
+}
+
+[epub|type~="title"] {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.color-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    page-break-after: always;
+}
+
+@font-face {
+    font-family: 'TheCircous';
+    font-weight: normal;
+    font-style: normal;
+    src:url('../fonts/TheCircous.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Understock';
+    font-weight: normal;
+    font-style: normal;
+    src:url('../fonts/UnderstockRegular.otf') format('otf');
+}
+
+@namespace math "http://www.w3.org/1998/Math/MathML";
+math {
+    color: green;
+    font-size: 2em;
+}
+munderover {
+    color: black
+}
+
+munderover:first-child {
+    font-size: 1em;
+    color: red;
+}
+
+mfrac {
+    opacity: 0.8;
+}

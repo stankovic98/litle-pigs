@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="pub-id">urn:uuid:ffd76e40-ed38-433e-8743-bc03072fea79</dc:identifier>
+        <dc:identifier id="online-id">https://www.gutenberg.org/files/18155/18155-h/18155-h.htm</dc:identifier>
+  
+        <dc:title id="main">The Story of the Three Little Pigs</dc:title>
+        <meta refines="#main" property="title-type">main</meta>
+        <meta refines="#main" property="display-seq">1</meta>
+
+        <dc:title id="subtitle">With drawings by L. Leslie Brooke</dc:title>
+        <meta refines="#subtitle" property="title-type">main</meta>
+        <meta refines="#subtitle" property="display-seq">2</meta>
+
+        <dc:language>en</dc:language>
+
+        <meta property="dcterms:modified">2020-04-03T12:00:00Z</meta>
+        
+        <dc:creator id="creator">Unknown</dc:creator>
+        <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+        
+        <dc:creator id="ilustrator">L. Leslie Brooke</dc:creator>
+        <meta refines="#ilustrator" property="role" scheme="marc:relators">ill</meta>
+        
+        <dc:date id="publish-date">1904</dc:date>
+
+        <dc:rights id="rights">Public domain</dc:rights>
+
+    </metadata>
+    <manifest>
+        <item id="cover" href="images/imgtitle.jpg" media-type="image/jpeg"  properties="cover-image"/>
+        <item id="default-style" href="css/default.css" media-type="text/css"/>
+        <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+        <item href="content01.xhtml" id="content01" media-type="application/xhtml+xml" properties="svg"/>
+        <item href="content02.xhtml" id="content02" media-type="application/xhtml+xml" />
+        <item href="content03.xhtml" id="content03" media-type="application/xhtml+xml" />
+        <item href="content04.xhtml" id="content04" media-type="application/xhtml+xml" />
+        <item href="content05.xhtml" id="content05" media-type="application/xhtml+xml" />
+        <item href="content06.xhtml" id="content06" media-type="application/xhtml+xml" />
+        <item href="content07.xhtml" id="content07" media-type="application/xhtml+xml" />
+        <item href="content08.xhtml" id="content08" media-type="application/xhtml+xml" />
+        <item href="content09.xhtml" id="content09" media-type="application/xhtml+xml" />
+        <item href="content10.xhtml" id="content10" media-type="application/xhtml+xml" />
+        <item href="content11.xhtml" id="content11" media-type="application/xhtml+xml" properties="svg"/>
+        <item href="content12-math.xhtml" id="content12" media-type="application/xhtml+xml" properties="mathml"/>
+
+        <item id="font.TheCircous.regular" href="fonts/TheCircous.ttf" media-type="application/font-ttf"/>
+        <item id="font.UnderstockRegular.regular" href="fonts/UnderstockRegular.otf" media-type="application/font-otf"/>
+        
+        <item href="images/img001.jpg" id="img001" media-type="image/jpeg" />
+        <item href="images/img002.jpg" id="img002" media-type="image/jpeg" />
+        <item href="images/img003.jpg" id="img003" media-type="image/jpeg" />
+        <item href="images/img004.jpg" id="img004" media-type="image/jpeg" />
+        <item href="images/img005.jpg" id="img005" media-type="image/jpeg" />
+        <item href="images/img006.jpg" id="img006" media-type="image/jpeg" />
+        <item href="images/img007.jpg" id="img007" media-type="image/jpeg" />
+        <item href="images/img008.jpg" id="img008" media-type="image/jpeg" />
+        <item href="images/img009.jpg" id="img009" media-type="image/jpeg" />
+        <item href="images/img010.jpg" id="img010" media-type="image/jpeg" />
+        <item href="images/img011.jpg" id="img011" media-type="image/jpeg" />
+        <item href="images/img012.jpg" id="img012" media-type="image/jpeg" />
+        <item href="images/img013.jpg" id="img013" media-type="image/jpeg" />
+        <item href="images/img014.jpg" id="img014" media-type="image/jpeg" />
+        <item href="images/img015.jpg" id="img015" media-type="image/jpeg" />
+        <item href="images/imgplate-1.jpg" id="imgplate-1" media-type="image/jpeg" />
+        <item href="images/imgplate-2.jpg" id="imgplate-2" media-type="image/jpeg" />
+        <item href="images/imgplate-3.jpg" id="imgplate-3" media-type="image/jpeg" />
+        <item href="images/imgplate-4.jpg" id="imgplate-4" media-type="image/jpeg" />
+        <item href="images/imgplate-5.jpg" id="imgplate-5" media-type="image/jpeg" />
+        <item href="images/imgplate-6.jpg" id="imgplate-6" media-type="image/jpeg" />
+        <item href="images/imgplate-7.jpg" id="imgplate-7" media-type="image/jpeg" />
+        <item href="images/imgplate-8.jpg" id="imgplate-8" media-type="image/jpeg" />
+        <item href="images/imginside-back.jpg" id="imginside-back" media-type="image/jpeg" />
+        <item href="images/imginside-back.svg" id="imginside-back-svg" media-type="image/svg+xml" />
+        <item href="images/imginsidefront.jpg" id="imginside-front" media-type="image/jpeg" />
+        <item href="images/imginsidefront.svg" id="imginside-front-svg" media-type="image/svg+xml" />
+        
+        <item href="images/imgtitle.jpg" id="imgtitle" media-type="image/jpeg" fallback="imgtitle-svg" />
+        <item href="images/imgtitle.svg" id="imgtitle-svg" media-type="image/svg+xml" />
+  
+        <item href="videos/ThreeLittlePigs.mp4" id="vid01" media-type="video/x-m4v" />
+        <item href="videos/ThreeLittlePigs.webm" id="vid02" media-type="video/webm" />
+    </manifest>
+
+    <spine>
+        <itemref idref="imginside-front-svg" />
+        <!-- <itemref idref="content01"/> -->
+        <itemref idref="imgtitle" />
+        <itemref idref="content02"/>
+        <itemref idref="content03"/>
+        <itemref idref="content04"/>
+        <itemref idref="content05"/>
+        <itemref idref="content06"/>
+        <itemref idref="content07"/>
+        <itemref idref="content08"/>
+        <itemref idref="content09"/>
+        <itemref idref="content10"/>
+        <itemref idref="content11"/>
+        <itemref idref="content12"/>
+        <itemref idref="imginside-back-svg" />
+    </spine>
+</package>
