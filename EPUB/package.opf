@@ -81,6 +81,8 @@
   
         <item href="videos/ThreeLittlePigs.mp4" id="vid01" media-type="video/x-m4v" />
         <item href="videos/ThreeLittlePigs.webm" id="vid02" media-type="video/webm" />
+
+        <item href="audio/The_Three_Little_Pigs.mp3" id="audio" media-type="audio/mp3" />
     </manifest>
 
     <spine>
