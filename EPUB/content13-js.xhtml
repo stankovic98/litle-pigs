@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+    <head>
+        <title>The Story of the Three Litle Pigs</title>
+        <meta charset="utf-8" />
+        <link href="./css/default.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section>
+            <p>Imagine you are the wolf, how would you eat all three pigs?</p>
+            <ul>
+                <li onclick="answerOne()">explain to the wolf that you are just lonely, and that is the reason for your violent hunger.</li>
+                <li onclick="answerTwo()">let the pigs escape to their eldest brother into the brick house.</li>
+                <li onclick="answerThree()">wait in front of the house to, because the pigs have to eat too.</li>
+            </ul>
+            <div id="answer"></div>
+        </section>
+
+        <script type="text/javascript">
+            <![CDATA[
+            function answerOne() {
+                var para = document.createElement("p");
+                var node = document.createTextNode("Sorry, wrong answer. The third pig is ruthless, he didn't like his brothers because they were lazy.");
+                para.appendChild(node);
+                var element = document.getElementById("answer");
+                element.appendChild(para);  
+            }
+
+            function answerTwo() {
+                var para = document.createElement("p");
+                var node = document.createTextNode("Bravo you are correct. The wolf would then say that if they let one pig out to eat him, he will release the other two, or he will blow the house and eat all three. First two pigs would beleive them and release the third since he wouldn't agree to the wolfs therms. After that he could climb the cimney and eat the two pigs since they don't know how does the brick house function.");
+                para.appendChild(node);
+                var element = document.getElementById("answer");
+                element.appendChild(para);  
+            }
+            
+            function answerThree() {
+                var para = document.createElement("p");
+                var node = document.createTextNode("Sorry, wrong answer. The third pig would rather starve than to be eaten by the pig, and starved pig is not that good of a dinner.");
+                para.appendChild(node);
+                var element = document.getElementById("answer");
+                element.appendChild(para);  
+            }
+            ]]>
+            </script>
+    </body>
+</html>
